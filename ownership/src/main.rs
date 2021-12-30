@@ -1,5 +1,6 @@
 fn main() {
     // jeder nicht-primitiver Wert hat einen Besitzer (owner)
+    // primitive Werte werden kopiert, statt bewegt
     let var = String::from("Hello World!");
     println!("(1) {}", var);
 
@@ -27,7 +28,6 @@ fn main() {
     // das gleiche mit Funktionen
     geliehen(&string);
 
-
     // und das kann auch erweitert werden auf Veränderbarkeit
     let mut gesamt = 0;
     let array = [1, 24, 32, 12, 3];
@@ -44,7 +44,11 @@ fn nimmt_besitzt(var: String) {
     // implizites drop(var)
 }
 
-fn geliehen(var: &String) {
+// &String kann automatisch in &str umgewandelt werden
+// weshalb man eher &str verwenden sollte
+// &str: "Hello"
+// String: String::from("Hello")
+fn geliehen(var: &str) {
     println!("in Funktion geliehen {}", var);
 }
 
