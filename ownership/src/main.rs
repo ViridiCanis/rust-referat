@@ -20,6 +20,8 @@ fn main() {
 
     // um die Werte nicht wegzugeben
     // kann man die stattdessen leihen (borrow) mit &
+    // Achtung: der Compiler (eher "Borrow Checker") achtet darauf das die
+    //     Referezen nicht länger als der eigentliche Wert leben können
     let string = String::from("Hello World!");
     let geliehender_string = &string;
     println!("(4) {}", string);
