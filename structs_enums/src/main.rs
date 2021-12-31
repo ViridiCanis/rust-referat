@@ -14,15 +14,15 @@ struct Rechteck {
 }
 
 impl Rechteck {
-    fn new(breite: u32, höhe: u32) -> Rechteck {
-        Rechteck {
+    fn new(breite: u32, höhe: u32) -> Self {
+        Self {
             breite,
             höhe
         }
     }
 
-    fn quadrat(seitenlänge: u32) -> Rechteck {
-        Rechteck {
+    fn quadrat(seitenlänge: u32) -> Self {
+        Self {
             breite: seitenlänge,
             höhe: seitenlänge
         }
