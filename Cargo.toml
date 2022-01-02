@@ -3,5 +3,10 @@
 members = [
     "basics",
     "ownership",
-    "structs_enums"
+    "structs_enums",
+    "modules",
+    "error_handling",
+    "traits",
+    "iterators",
+    "high_level"
 ]
