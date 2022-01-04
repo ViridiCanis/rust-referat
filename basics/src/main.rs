@@ -11,8 +11,8 @@ fn main() {
 
     // Variabeln mit gleichen Namen werden überschriben: Shadowing
     let a = 15;
-    // a += 20; // Fehler: Variabeln sind standardmäßig nicht veränderbar
 
+    // a += 20; // Fehler: Variabeln sind standardmäßig nicht veränderbar
 
     // mut muss hinzugefügt werden, um eine Variabel veränderbar (mutable) zu machen
     let mut a = 12;

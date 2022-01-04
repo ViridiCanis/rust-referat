@@ -33,7 +33,9 @@ fn main() {
     // und das kann auch erweitert werden auf Veränderbarkeit
     let mut gesamt = 0;
     let array = [1, 24, 32, 12, 3];
+    // let ges_mut = &mut gesamt;
     addiere_länge(&mut gesamt, &array);
+    // println!("{}", ges_mut);
 }
 
 fn neuer_string() -> String {
