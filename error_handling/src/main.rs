@@ -36,3 +36,5 @@ fn main() {
 
     println!("gewählte Zahl: {}", num);
 }
+
+// file:///mnt/d/Documents/repositories/rust-referat/traits/src/main.rs

@@ -83,3 +83,6 @@ impl Summary for Tweet {
 fn main() {
     println!("Hello, world!");
 }
+
+
+// file:///mnt/d/Documents/repositories/rust-referat/iterators/src/main.rs

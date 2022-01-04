@@ -58,3 +58,5 @@ fn addiere_länge(gesamt: &mut usize, array: &[i32]) {
     // * um den Wert auf den von der Referenz gezeigt wird zu verändern
     *gesamt += array.len();
 }
+
+// file:///mnt/d/Documents/repositories/rust-referat/structs_enums/src/main.rs

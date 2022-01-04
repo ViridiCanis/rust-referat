@@ -33,3 +33,9 @@ fn addiere(x: i32, y: i32) -> i32 {
     // ist es der Rückgabewert
     x + y
 }
+
+
+
+
+
+// file:///mnt/d/Documents/repositories/rust-referat/ownership/src/main.rs
