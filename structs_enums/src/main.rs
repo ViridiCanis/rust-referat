@@ -14,6 +14,7 @@ struct Rechteck {
 }
 
 impl Rechteck {
+    // assozierte Funktion: genutzt mit Rechteck::new(...)
     fn new(breite: u32, höhe: u32) -> Self {
         Self {
             breite,
@@ -28,6 +29,7 @@ impl Rechteck {
         }
     }
 
+    // Methode genutzt mit: instanz.fläche()
     fn fläche(&self) -> u32 {
         self.breite * self.höhe
     }
